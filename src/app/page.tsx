@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
@@ -99,7 +100,7 @@ export default function Home() {
       <div className="grid grid-cols-4 gap-3 px-4 mt-12">
 
         {/* Car1 */}
-        <div className="px-4"> <h1 className="text-2xl">Koenigsegg</h1> <p className="text-cyan-600">Sport</p> <br /> <img src="image 7.png" alt="car1" /> <br />
+        <div className="px-4 hover:bg-slate-300"> <h1 className="text-2xl">Koenigsegg</h1> <p className="text-cyan-600">Sport</p> <br /> <img src="image 7.png" alt="car1" /> <br />
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
@@ -111,21 +112,24 @@ export default function Home() {
         </div>
 
         {/* Car2 */}
-        <div className=" px-4"> <h1 className="text-2xl">Nissan GT - R</h1> <p className="text-cyan-600">Sport</p> <br />  <img src="image 8.png" alt="car1" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">Nissan GT - R</h1> <p className="text-cyan-600">Sport</p> <br />  <img src="image 8.png" alt="car1" /> <br />
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
           </div>
           <div className="flex justify-around  items-center py-2">
             <div><p>$99.00/Day</p></div>
-            <div> <button className="bg-blue-700 w-28 h-10 rounded-md text-slate-50">Rent Now</button></div>
+
+
+            <Link href="/Nissan" className="bg-blue-700 w-28 h-10 rounded-md text-slate-50 text-center"> <p className="mt-2">Rent Now </p> </Link>
+
           </div>
         </div>
 
 
 
         {/* Car3 */}
-        <div className=" px-4"> <h1 className="text-2xl">Rolls - Royce</h1> <p className="text-cyan-600">Sedan</p> <br /> <br /> <img src="Car Rollyce.png" alt="car3" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">Rolls - Royce</h1> <p className="text-cyan-600">Sedan</p> <br /> <br /> <img src="Car Rollyce.png" alt="car3" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -140,7 +144,7 @@ export default function Home() {
 
 
         {/* Car4 */}
-        <div className=" px-4"><h1 className="text-2xl">Nissan GT - R</h1> <p className="text-cyan-600">Sport</p> <br /><img src="image 8.png" alt="car1" /> <br />
+        <div className=" px-4 hover:bg-slate-300"><h1 className="text-2xl">Nissan GT - R</h1> <p className="text-cyan-600">Sport</p> <br /><img src="image 8.png" alt="car1" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -154,7 +158,7 @@ export default function Home() {
 
 
         {/* Car5 */}
-        <div className=" px-4"> <h1 className="text-2xl">All New Rush</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 5.png" alt="car5" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">All New Rush</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 5.png" alt="car5" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -168,7 +172,7 @@ export default function Home() {
 
 
         {/* Car6 */}
-        <div className=" px-4"> <h1 className="text-2xl">CR  - V</h1> <p className="text-cyan-600">SUV</p> <br />  <img src="Car 6.png" alt="car6" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">CR  - V</h1> <p className="text-cyan-600">SUV</p> <br />  <img src="Car 6.png" alt="car6" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -182,7 +186,7 @@ export default function Home() {
 
 
         {/* Car7 */}
-        <div className=" px-4"> <h1 className="text-2xl">All New Terios</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 7.png" alt="car7" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">All New Terios</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 7.png" alt="car7" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -196,7 +200,7 @@ export default function Home() {
 
 
         {/* Car8 */}
-        <div className=" px-4"> <h1 className="text-2xl">CR  - V</h1> <p className="text-cyan-600">SUV</p> <br />  <img src="Car 8.png" alt="car8" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">CR  - V</h1> <p className="text-cyan-600">SUV</p> <br />  <img src="Car 8.png" alt="car8" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -211,7 +215,7 @@ export default function Home() {
 
 
         {/* Car9 */}
-        <div className=" px-4"> <h1 className="text-2xl">MG ZX Exclusice</h1> <p className="text-cyan-600">Hatchback</p> <br />  <img src="Car 9.png" alt="car9" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">MG ZX Exclusice</h1> <p className="text-cyan-600">Hatchback</p> <br />  <img src="Car 9.png" alt="car9" /> <br />
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
@@ -224,7 +228,7 @@ export default function Home() {
         </div>
 
         {/* Car10 */}
-        <div className=" px-4"> <h1 className="text-2xl">New MG ZS</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 11.png" alt="car11" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">New MG ZS</h1> <p className="text-cyan-600">SUV</p> <br /> <img src="Car 11.png" alt="car11" /> <br />
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
@@ -237,7 +241,7 @@ export default function Home() {
 
 
         {/* Car11 */}
-        <div className=" px-4"> <h1 className="text-2xl">MG ZX Excite</h1> <p className="text-cyan-600">Hatchback</p> <br /> <img src="Car 9.png" alt="car9" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">MG ZX Excite</h1> <p className="text-cyan-600">Hatchback</p> <br /> <img src="Car 9.png" alt="car9" /> <br />
 
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
@@ -251,7 +255,7 @@ export default function Home() {
 
 
         {/* Car12 */}
-        <div className=" px-4"> <h1 className="text-2xl">New MG ZS</h1> <p className="text-cyan-600">Sport</p> <br /> <img src="Car 11.png" alt="car11" /> <br />
+        <div className=" px-4 hover:bg-slate-300"> <h1 className="text-2xl">New MG ZS</h1> <p className="text-cyan-600">Sport</p> <br /> <img src="Car 11.png" alt="car11" /> <br />
           <div className="flex gap-4 py-2">
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
@@ -267,9 +271,14 @@ export default function Home() {
 
       <br /><br />
 
-      <div className="flex justify-center"> <button className="bg-blue-700 w-40 h-10 rounded-md text-slate-50">Show more car</button></div>
+      <div className="flex justify-center">
+        <Link href="/Showcar" className="bg-blue-700 p-2 rounded-lg w-40 text-center text-white">Show more car </Link>
 
-      <br /> <br />
+        {/* <Link href="/home">Home</Link> */}
+      </div>
+
+
+      <br /> <br /> <br /> <br />
 
       <Footer />
 
