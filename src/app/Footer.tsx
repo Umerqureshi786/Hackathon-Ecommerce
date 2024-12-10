@@ -36,7 +36,7 @@ const Footer = () => {
 
 
             <div className='flex justify-between'>
-                <div className='ml-16 text-black font-semibold'>©2022 MORENT. All rights reserved</div>
+                <div className='ml-16 text-black font-semibold'>&copy;2022 MORENT. All rights reserved</div>
 
                 <div className='flex gap-20 mr-16 text-black font-semibold'>
                     <div> Privacy & Policy </div>

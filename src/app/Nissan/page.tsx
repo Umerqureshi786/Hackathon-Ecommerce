@@ -10,7 +10,7 @@ const Nissan = () => {
                 <div></div>
 
                 <div><img src="View.png" alt="carimage" /> </div>
-                <div className=' p-7'> <h1 className='text-xl font-bold'>NISSAN GT-R</h1> <br />  BRNISMO has become the embodiment of Nissan's outstanding performance, inspired by the most <br /> unforgiving proving ground, the "race track".</div>
+                <div className=' p-7'> <h1 className='text-xl font-bold'>NISSAN GT-R</h1> <br />  BRNISMO has become the embodiment of Nissan &apos;s outstanding performance, inspired by the most <br /> unforgiving proving ground, the &quot;race track&quot;.</div>
             </div>
             <br /> <br /> <br />
 
