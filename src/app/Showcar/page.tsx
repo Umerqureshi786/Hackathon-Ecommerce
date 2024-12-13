@@ -70,10 +70,6 @@ export default function Home() {
 
       </div>
 
-
-
-
-
       <div className="flex justify-evenly ">
 
         {/* left div */}
@@ -90,6 +86,9 @@ export default function Home() {
           </form>
 
           <br /> <br /> <br /> <br />
+
+
+
           <p className="text-slate-400">Capacity</p> <br /> <br />
           <form>  <input type="checkbox" />MPV (16) <br /> <br />
             <input type="checkbox" />Sedan (20) <br /> <br />
@@ -100,13 +99,7 @@ export default function Home() {
         </div>
 
 
-
-
-
         <div className=" grid grid-cols-3 gap-6">
-
-
-
 
           <div>
             {/* Car1 */}
@@ -136,7 +129,7 @@ export default function Home() {
               <div className="flex justify-around  items-center py-2">
                 <div><p>$99.00/Day</p></div>
                 <div>
-                <Link href="/Nissan" className="bg-blue-700 p-2 rounded-lg w-56 text-center text-white">Rent Now </Link>
+                  <Link href="/Nissan" className="bg-blue-700 p-2 rounded-lg w-56 text-center text-white">Rent Now </Link>
 
                 </div>
               </div>
@@ -272,8 +265,6 @@ export default function Home() {
           </div>
 
         </div>
-
-
 
       </div>
       <br /> <br /> <br /><br /> <br />
