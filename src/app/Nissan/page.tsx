@@ -44,10 +44,8 @@ const Nissan = () => {
 
                 </div>
 
-
                 <div className=' p-7'> <h1 className='text-xl font-bold'>NISSAN GT-R</h1>
-
-
+`   `
                     <div className='flex gap-2 h-3'>
                         <img src="Star.png" alt="star" />
                         <img src="Star.png" alt="star" />
