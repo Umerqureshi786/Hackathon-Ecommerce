@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Cars from '../Cars/page'
+import Link from 'next/link'
 const Nissan = () => {
     return (
         <div>
@@ -85,21 +86,24 @@ const Nissan = () => {
 
 
                     <div className='flex justify-around'>
-                        <div ><p className='text-lg font-bold'>$80.00/ days</p> <p className='text-xs text-slate-400'> <del>$100.00</del></p>
+                        <div >
+                            <p className='text-lg font-bold'>$80.00/ days</p> <p className='text-xs text-slate-400'> <del>$100.00</del></p>
                         </div>
 
-                        <div><button className="bg-blue-700 w-28 h-12 rounded-md text-slate-50">Rent Now</button></div>
+                        <div className='mt-2 mr-10'>
+                            {/* <button className="bg-blue-700 w-28 h-12 rounded-md text-slate-50">Rent Now</button> */}
+                        
+                        <Link href="/Billinginfo" className="bg-blue-700 p-3 px-6 rounded-lg  text-center text-white">Rent Now </Link>
+                        
+                        
+                        </div>
                     </div>
 
                 </div>
 
-<<<<<<< HEAD
-=======
-                <div><img src="View.png" alt="carimage" /> </div>
-                <div className=' p-7'> <h1 className='text-xl font-bold'>NISSAN GT-R</h1> <br />  BRNISMO has become the embodiment of Nissan &apos;s outstanding performance, inspired by the most <br /> unforgiving proving ground, the &quot;race track&quot;.</div>
->>>>>>> 694596a36ef3144260b97a7a2896e2768dcf9ecc
-            </div>
+                
 
+            </div>
 
             <br /> 
 

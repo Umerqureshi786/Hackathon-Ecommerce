@@ -262,6 +262,7 @@ export default function Home() {
             <div className="flex"><img src="gas.png" alt="gas" className="h-6" />Manual</div>   <div className="flex"><img src="Manual.png" alt="manual" className="h-6" />90L</div>  <div className="flex"><img src="add-friend.png" alt="2 people" className="h-6" />2 people</div> <br />
 
           </div>
+          
           <div className="flex justify-around  items-center py-2">
             <div><p>$99.00/Day</p></div>
             <div> <button className="bg-blue-700 w-28 h-10 rounded-md text-slate-50">Rent Now</button></div>

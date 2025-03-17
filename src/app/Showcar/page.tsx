@@ -7,7 +7,6 @@ export default function Home() {
       <Navbar />
 
 
-
       {/* Pick-Up */}
       <div className="grid grid-cols-2 py-4 px-7 ml-80 ">
         <div> <input type="radio" /> Pick-Up <br />

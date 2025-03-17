@@ -11,6 +11,7 @@ const Footer = () => {
                     </div>  <br />
                     <p className="px-10 ml-5 text-gray-500">Our vision is to provide convenience <br /> and help increase your sales business.</p>
                 </div>
+
                 <br />
 
 

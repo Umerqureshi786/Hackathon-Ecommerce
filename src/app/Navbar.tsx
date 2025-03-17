@@ -3,8 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         // Main div.....Working
-        <div className="flex flex-wrap justify-between items-center  w-[95%] mx-auto py-4">
-
+        <div className="flex justify-between items-center  w-[95%] mx-auto py-4">
             {/* logo placement working */}
             <div className="w-full md:w-auto flex justify-center md:justify-start mb-2 md:mb-0">
                 <img src="Logo.png" alt="logo image" className='ml-10' />
@@ -28,6 +27,8 @@ const Navbar = () => {
                 <img src="setting.png" alt="setting" className="w-6 h-6" />
                 <img src="Profil.png" alt="profile" className="w-10 h-10 rounded-full" />
             </div>
+
+
         </div>
 
     )
